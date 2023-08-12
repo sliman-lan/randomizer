@@ -1,7 +1,7 @@
 const grid = document.querySelector(".grid");
 const orderBtn = document.querySelector("#order");
 const translateBtn = document.querySelector("#translate");
-let state = { order: 0, translate: 0 };
+let state = { order: 1, translate: 1 };
 
 grid.addEventListener("mouseover", () => {
     const rand = randOrder();
